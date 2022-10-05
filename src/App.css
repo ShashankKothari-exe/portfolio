@@ -1,5 +1,39 @@
+
+html{
+  scroll-behavior: smooth;
+    scrollbar-width:normal;
+    scrollbar-color:#db1d5c #dddddd;
+}
 .App {
   text-align: center;
+}
+
+.beffect{
+  backdrop-filter: blur(1px);
+}
+
+.optionstabs{
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 25px;
+  justify-content:space-around;
+}
+
+.tab{
+  padding: 6px;
+  height: 20%;
+  border-radius: 8%;
+  backdrop-filter: blur(3px);
+  justify-content:center;
+}
+
+#tab2{
+    width: 100%;
+    margin-top: 20%;
+    padding: 54%;
+  backdrop-filter: blur(15px);
 }
 
 .App-logo {
