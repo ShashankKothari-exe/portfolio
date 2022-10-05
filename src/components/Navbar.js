@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import logoimg from "./My project-1.png";
 export default function Navbar(props) {
   return (
     <div style={{zIndex:'499', position:'fixed', backgroundColor:'#1F1C1C'}}>
       <table><tr>
             <td> 
-            <img style={{width:'170px'}} src='My project-1.png' alt='SK'/></td>
+            <img style={{width:'170px'}} src={logoimg} alt='SK'/></td>
             <td><h1 style={{color:'wheat'}}>{props.title}</h1></td>
             <td><nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{width:'100%', height:100, marginLeft:'20%'}}>  
   <div className="container-fluid">
