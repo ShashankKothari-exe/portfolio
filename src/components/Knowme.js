@@ -23,7 +23,7 @@ Knowme() {
             <a href="./#contact"><button type="button" onclick="alert('Hello world!')">Contact</button></a>
           </div>
           <div><br/><hr/><hr/><br/>
-          <div style={{backgroundColor:'#2F4F4F', color: 'white'}}>
+          <div style={{backgroundColor:'#181818', color: 'white', marginLeft:'30%', marginRight: '30%'}}>
             <h3>My Skills</h3> <hr/>
             <div>
               <div>HTML</div>
