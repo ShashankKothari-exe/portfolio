@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function About() {
+export default function Projects() {
 let myStyle={
     color: 'white',
     backgroundColor: "black"
@@ -18,7 +18,7 @@ let myStyle={
     </h2>
     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div className="accordion-body">
-        <strong><a href='https://bookmyride247.000webhostapp.com/' rel='noopener' target='_blank'>BookMyRide</a></strong> is a fullstack project. This project was created without using any <code>CSS/JS</code> framework.
+        <strong><a href='https://bookmyride247.000webhostapp.com/' rel='noreferrer' target='_blank'>BookMyRide</a></strong> is a fullstack project. This project was created without using any <code>CSS/JS</code> framework.
       <hr/>
         <strong>Technologies used:</strong>
         <ul>
@@ -49,7 +49,7 @@ let myStyle={
     </h2>
     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div className="accordion-body">
-      <strong><a href='https://borishikesh.000webhostapp.com/' rel='noopener' target='_blank'>This</a></strong> is a fullstack project. This project was created without using any <code>CSS/JS</code> framework.
+      <strong><a href='https://borishikesh.000webhostapp.com/' rel='noreferrer' target='_blank'>This</a></strong> is a fullstack project. This project was created without using any <code>CSS/JS</code> framework.
       <hr/>
         <strong>Technologies used:</strong>
         <ul>

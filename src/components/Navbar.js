@@ -17,20 +17,21 @@ export default function Navbar(props) {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">About</a>
+          <a className="nav-link active" aria-current="page" href="./#about">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Contact</a>
+          <a className="nav-link" href="./#contact">Contact</a>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Projects
           </a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="/">Action</a></li>
-            <li><a className="dropdown-item" href="/">Another action</a></li>
+          <ul className="dropdown-menu" style={{opacity: '60%'}}>
+            <li><a className="dropdown-item" href='https://bookmyride247.000webhostapp.com/' rel='noreferrer' target='_blank'><strong>BookMyRide</strong></a></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="/">Something else here</a></li>
+            <li><a className="dropdown-item" href='https://borishikesh.000webhostapp.com/' rel='noreferrer' target='_blank'><strong>Bank Of Rishikesh</strong></a></li>
+            <li><hr className="dropdown-divider"/></li>
+            <li><a className="dropdown-item" href="/"><strong>Restaurant</strong></a></li>
           </ul>
         </li>
         <li className="nav-item">
