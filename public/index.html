@@ -38,6 +38,7 @@
     </style>
   </head>
   <body style="background-image: url('%PUBLIC_URL%/darkvector.jpg')" onscroll="updateY()">
+    <div id="backtotop" class="backtotop"><a style="text-decoration: none;" href="#" ><h1 style="font-size: 44px;">&nbsp↑</h1></a></div>
     <noscript><h1>You need to enable JavaScript to run this app.</h1></noscript>
     <div id="root"></div>
   </body>
@@ -46,6 +47,8 @@
   const element = document.getElementById("htm");
   let y = element.scrollTop;
   let per=0;
+  let GoUp=y*100/4233 + '%';
+  document.getElementById("backtotop").style.opacity=GoUp;
   if(y<=650){
   per=(y-250)*100/400 + "%";
     }

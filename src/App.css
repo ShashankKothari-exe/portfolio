@@ -8,6 +8,19 @@ html{
   text-align: center;
 }
 
+.backtotop{
+  height: 50px;
+    width: 50px;
+    position: fixed;
+    border-radius: 50%;
+    bottom:2rem;
+    right:2rem;
+    cursor:pointer;
+    z-index: 10;
+    background-color:crimson;
+    opacity: 0%;
+}
+
 .beffect{
   backdrop-filter: blur(1px);
 }
