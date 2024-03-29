@@ -27,16 +27,17 @@ Knowme() {
             <h3>My Skills</h3> <hr/>
             <div>
               <div>HTML</div>
-              <div>CSS</div>
-              <div>JavaScript</div>
-              <div>React</div>
-              <div>SASS</div>
-              <div>GIT</div>
+              <div>Bootstrap CSS</div>
+              <div>React JS</div>
+              <div>React Native</div>    
               <div>Github</div>
-              <div>Responsive Design</div>
-              <div>Terminal</div>
-              <div>Ruby on Rails</div>
-              <div>SQL Basics</div><br/>
+              <div>Google Firebase</div>
+              <div>C/C++</div>
+              <div>GoLang</div>
+              <div>Node JS</div>
+              <div>PHP, JSP & C#</div>    
+              <div>Android Studio</div>
+              <div>SQL</div><br/>
             </div>
           </div>
         </div>
