@@ -31,7 +31,7 @@ export default function Navbar(props) {
             <li><hr className="dropdown-divider"/></li>
             <li><a className="dropdown-item" href='https://borishikesh.000webhostapp.com/' rel='noreferrer' target='_blank'><strong>Bank Of Rishikesh</strong></a></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="/"><strong>Restaurant</strong></a></li>
+            <li><a className="dropdown-item" href="#"><strong>Restaurant</strong></a></li>
           </ul>
         </li>
         <li className="nav-item">
