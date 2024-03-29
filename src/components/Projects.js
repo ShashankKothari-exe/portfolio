@@ -75,12 +75,12 @@ let myStyle={
   <div className="accordion-item">
     <h2 className="accordion-header" id="headingThree">
       <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Restaurant
+        Learn C++ the right way (Android app)
       </button>
     </h2>
     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div className="accordion-body">
-        <strong>This is an open source project.</strong> You can use this as a template for your Restaurant website. Use <code>React.js</code>.
+        <strong>This is an ongoing project</strong> Will be on Playstore soon. <code>Android studio</code>.
       </div>
     </div>
   </div>
