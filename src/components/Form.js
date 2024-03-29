@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+nter your namimport React, {useState} from 'react'
 
 export default function Form(props) {
     const sendtxt=()=>{
@@ -13,7 +13,7 @@ export default function Form(props) {
         setTflag(true);
     }
 
-    const mailchange=(e)=>{
+    const namechange=(e)=>{
         setEmail(e.target.value.toUpperCase());
         setEflag(true);
     }
@@ -26,8 +26,8 @@ export default function Form(props) {
     return (
     <div style={{marginLeft: '30%', backgroundColor:'black', marginRight: '30%', borderRadius:'5%'}}>
         <div className="mb-3" style={{backgroundColor:'black', width:'80%'}}>
-            <label htmlFor="exampleFormControlInput1" className="form-label" style={{color:'white'}}>Email address</label>
-            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" onChange={mailchange} value={email}/>
+            <label htmlFor="exampleFormControlInput1" className="form-label" style={{color:'white'}}>Name</label>
+            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Enter your name here" onChange={namechange} value={text}/>
             </div>
             <div className="mb-3" style={{backgroundColor:'black', width:'80%'}}>
             <label htmlFor="exampleFormControlTextarea1" className="form-label" style={{color:'white'}}>Enter your message here:</label>
